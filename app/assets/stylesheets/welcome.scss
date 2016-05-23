@@ -1,0 +1,89 @@
+body {
+  background: yellow;
+  padding: 50%;
+  font: 14px Helvetica, Arial;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+  margin-top: 77px;
+
+  // max-width: 960px;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  padding: 0 1em;
+  color: white;
+  background-color: black;
+  border-image-slice: 50 50 50 50;
+  border-image-width: 15px 0px 15px 0px;
+  // border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: round round;
+  border-image-source: url("https://mdn.mozillademos.org/files/6017/border-image-6.svg");
+  -webkit-box-shadow: 5px 11px 33px -3px rgba(47,56,235,1);
+  -moz-box-shadow: 5px 11px 33px -3px rgba(47,56,235,1);
+  box-shadow: 5px 11px 33px -3px rgba(47,56,235,1);
+  z-index: 1000;
+}
+
+.header #logo {
+  font-family: cursive;
+  text-align: center;
+}
+
+.header #logo-outer {
+  position: fixed;
+  font-family: cursive;
+  color: purple;
+  top: .4em;
+  left: .9em;
+  font-size: 1.2em;
+}
+
+.container {
+  border-radius: 0.5em;
+  margin: 3em;
+  background-color: rgb(255,255,255);
+}
+
+.user {
+  width: 17em;
+  background-color: rgb(255,255,255);
+  display: inline-block;
+  margin: 1em;
+  padding: 0 0 1em 0;
+  text-align: center;
+}
+
+.user img {
+  max-width: 17em;
+  max-height: 17em;
+  box-shadow: 5px 11px 33px -3px rgba(47,56,235,1);
+  border: solid 1px black;
+  // transform:rotate(5deg);
+}
+
+.users.like {
+  background-color: rgb(255,255,255);
+  padding: 1em 3em;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#heart {
+  position: fixed;
+  left: 40%;
+  top: 0;
+  font-size: 15em;
+  color: red;
+}
+
+.liked {
+  color: red;
+  background-color: rgb(255,255,255);
+  padding: 1em 3em;
+}

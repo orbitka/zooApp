@@ -1,0 +1,28 @@
+<div ng-controller="AnimalsController">
+
+  <h1 id="heart" ng-show="heartToggle">&#10084</h1>
+
+
+  <header class="header">
+    <div>
+      <!-- <h2 id="logo-outer">ZOO</h2> -->
+      <h2 id='logo'>Welcome to Hania & Zosia ZOO</h2>
+    </div>
+  </header>
+
+  <div class="container">
+    <ul class="users">
+      <span class="user" ng-repeat="animal in animals">
+        <img src="{{ animal.photo }}" alt="Photo of {{ animal.name }}" />
+        <h4>{{ animal.name }}</h4>
+        <p>Age: {{ animal.age }}</p>
+        <p>"{{ animal.description }}""</p>
+        <!-- <p> <button ng-click="heartMe($index)" ng-class="seeker.liked ? 'liked' : 'like' ">Like</button> </p> -->
+      </span>
+
+    </ul>
+
+  </div>
+
+
+</div>
