@@ -28,22 +28,13 @@ body {
   z-index: 1000;
 }
 
-.header #logo {
+.header #slogan {
   font-family: cursive;
   text-align: center;
 }
 
-.header #logo-outer {
-  position: fixed;
-  font-family: cursive;
-  color: purple;
-  top: .4em;
-  left: .9em;
-  font-size: 1.2em;
-}
-
 .container {
-  border-radius: 0.5em;
+  border-radius: 1em;
   margin: 3em;
   background-color: rgb(255,255,255);
 }
@@ -72,6 +63,13 @@ body {
 
 a {
   color: #00B7FF;
+}
+
+#liked-container {
+  padding: 20px;
+  // background-color: pink;
+  border: 3px pink ridge;
+  border-radius: 1em;
 }
 
 #heart {

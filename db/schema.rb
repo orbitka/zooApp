@@ -21,8 +21,9 @@ ActiveRecord::Schema.define(version: 20160522182722) do
     t.string   "photo"
     t.integer  "age"
     t.text     "description"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.boolean  "liked",       default: false, null: false
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
   end
 
 end

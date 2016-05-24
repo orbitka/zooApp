@@ -141,11 +141,11 @@ photoCartoons = [
 ]
 
 
-100.times do
+200.times do
   Animal.create({
     name:         Faker::Name.first_name,
     # photo:        Faker::Avatar.image,
-    # photo:        "( "http://placekitten.com/" + rand(150..200) + "/" + rand(250..300) )",
+    # photo:        "http://placekitten.com/#{rand(200..250)}/#{rand(300..350)}",
     # photo:        photoCats.sample,
     photo:        photoSafari.sample,
     # photo:        photoCartoons.sample,

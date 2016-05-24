@@ -1,23 +1,43 @@
 <div ng-controller="AnimalsController">
 
-  <h1 id="heart" ng-show="heartToggle">&#10084</h1>
 
 
   <header class="header">
     <div>
-      <!-- <h2 id="logo-outer">ZOO</h2> -->
-      <h2 id='logo'>Welcome to Hania & Zosia ZOO</h2>
+      <h2 id='slogan'>Welcome to Hania & Zosia ZOO</h2>
     </div>
   </header>
 
   <div class="container">
+
+    <div id="liked-container">
+
+      <h2>My favorite animals:</h2>
+
+      <h1 id="liked" ng-show="likedToggle">&#10084</h1>
+
+      <ul class="users">
+        <span class="user" ng-repeat="animal in animals | filter: true">
+          <img src="{{ animal.photo }}" alt="Photo of {{ animal.name }}" />
+          <h4>{{ animal.name }}</h4>
+          <p>Age: {{ animal.age }}</p>
+          <p>"{{ animal.description }}""</p>
+          <p> <button ng-click="liked($index)" ng-class="animal.liked ? 'liked' : 'like' ">Like</button> </p>
+        </span>
+
+      </ul>
+
+
+    </div>
+
+
     <ul class="users">
-      <span class="user" ng-repeat="animal in animals">
+      <span class="user" ng-repeat="animal in animals | filter: false">
         <img src="{{ animal.photo }}" alt="Photo of {{ animal.name }}" />
         <h4>{{ animal.name }}</h4>
         <p>Age: {{ animal.age }}</p>
         <p>"{{ animal.description }}""</p>
-        <!-- <p> <button ng-click="heartMe($index)" ng-class="seeker.liked ? 'liked' : 'like' ">Like</button> </p> -->
+        <p> <button ng-click="liked($index)" ng-class="animal.liked ? 'liked' : 'like' ">Like</button> </p>
       </span>
 
     </ul>

@@ -5,6 +5,7 @@ class CreateAnimals < ActiveRecord::Migration
       t.string :photo
       t.integer :age
       t.text :description
+      t.boolean :liked, default: false, null: false
 
       t.timestamps null: false
     end
