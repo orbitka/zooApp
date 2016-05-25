@@ -151,7 +151,6 @@ pics = [photoCats, photoSafari, photoCartoons]
     # photo:        photoSafari.sample,
     # photo:        photoCartoons.sample,
     age:          rand(1..10),
-    # description:  Faker::ChuckNorris.fact
     description:  Faker::Superhero.name
     })
 end
