@@ -21,7 +21,7 @@
           <p>Age: {{ animal.age }}</p>
           <p>"{{ animal.description }}""</p>
           <!-- <p> <button ng-click="liked(animal.id)" ng-class="animal.liked ? 'liked' : 'like' ">Unlike</button> </p> -->
-
+          <p> <button ng-click="selectionHandler(animal.id, false)">Unlike</button> </p>
         </span>
 
       </ul>
@@ -36,7 +36,7 @@
         <h4>{{ animal.name }}</h4>
         <p>Age: {{ animal.age }}</p>
         <p>"{{ animal.description }}""</p>
-        <p> <button ng-click="liked(animal.id)" ng-class="animal.liked ? 'liked' : 'like' ">Like</button> </p>
+        <p> <button ng-click="selectionHandler(animal.id, true)">Like</button> </p>
       </span>
 
     </ul>

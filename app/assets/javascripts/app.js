@@ -7,25 +7,15 @@ zooApp.controller("AnimalsController", ["$scope", "$http", "$timeout", function(
     console.log("see animals");
   })
 
-  $scope.liked = function(id){
-    $scope.likedToggle = true;
-
-    // $timeout( function(){
-      // console.log('id',$scope.animals[id]);
-
-
-      // $scope.animals[id].liked = true;
-      // $scope.likedToggle = false;
+  $scope.selectionHandler = function(id, liked){
 
       $scope.animals.forEach(function(animal) {
         if (animal.id == id) {
-          animal.liked = true;
+          animal.liked = liked;
         }
       })
 
       console.log($scope.animals);
-
-    // }, 200);
 
   }
 

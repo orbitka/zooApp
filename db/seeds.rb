@@ -140,14 +140,15 @@ photoCartoons = [
   'https://upload.wikimedia.org/wikipedia/commons/d/dc/H%C3%A9raldique_meuble_Rainette.svg'
 ]
 
+pics = [photoCats, photoSafari, photoCartoons]
 
 200.times do
   Animal.create({
     name:         Faker::Name.first_name,
     # photo:        Faker::Avatar.image,
     # photo:        "http://placekitten.com/#{rand(200..250)}/#{rand(300..350)}",
-    # photo:        photoCats.sample,
-    photo:        photoSafari.sample,
+    photo:        pics.sample.sample,
+    # photo:        photoSafari.sample,
     # photo:        photoCartoons.sample,
     age:          rand(1..10),
     # description:  Faker::ChuckNorris.fact
