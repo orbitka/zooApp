@@ -6,11 +6,13 @@ body {
   padding: 0px;
   margin: 0;
   margin-top: 77px;
+  min-width: 630px;
 
   // max-width: 960px;
 }
 
 .header {
+  // display: flex;
   width: 100%;
   position: fixed;
   top: 0px;
@@ -31,8 +33,17 @@ body {
 .header #slogan {
   font-family: cursive;
   text-align: center;
+  font-size: 2em;
 }
 
+.header img {
+  height: 2em;
+  vertical-align: middle;
+  border: outset 6px white;
+  border-radius: 10%;
+  // padding: 0;
+  // margin: 0;
+}
 .container {
   border-radius: 1em;
   margin: 3em;
@@ -66,19 +77,12 @@ a {
 }
 
 #liked-container {
-  padding: 20px;
+  padding: 35px 5px 5px 5px;;
   background-color: lavender;
-  border: 3px pink ridge;
+  border: 10px pink ridge;
   border-radius: 1em;
 }
 
-#heart {
-  // position: fixed;
-  left: 40%;
-  top: 0;
-  font-size: 10em;
-  color: red;
-}
 
 .liked {
   color: red;
