@@ -14,15 +14,13 @@
 
       <h2>My favorite animals:</h2>
 
-      <h1 id="liked" ng-show="likedToggle">&#10084</h1>
-
       <ul class="users">
-        <span class="user" ng-repeat="animal in animals | filter: true">
-          <img src="{{ animal.photo }}" alt="Photo of {{ animal.name }}" />
+        <span class="user" ng-repeat="animal in animals track by animal.id" ng-show="animal.liked">
+          <img ng-src="{{ animal.photo }}" alt="Photo of {{ animal.name }}" />
           <h4>{{ animal.name }}</h4>
           <p>Age: {{ animal.age }}</p>
           <p>"{{ animal.description }}""</p>
-          <p> <button ng-click="liked($index)" ng-class="animal.liked ? 'liked' : 'like' ">Like</button> </p>
+          <p> <button ng-click="liked(animal.id)" ng-class="animal.liked ? 'liked' : 'like' ">Unlike</button> </p>
 
         </span>
 
@@ -33,12 +31,12 @@
 
 
     <ul class="users">
-      <span class="user" ng-repeat="animal in animals | filter: false">
-        <img src="{{ animal.photo }}" alt="Photo of {{ animal.name }}" />
+      <span class="user" ng-repeat="animal in animals track by animal.id" ng-hide="animal.liked">
+        <img ng-src="{{ animal.photo }}" alt="Photo of {{ animal.name }}" />
         <h4>{{ animal.name }}</h4>
         <p>Age: {{ animal.age }}</p>
         <p>"{{ animal.description }}""</p>
-        <p> <button ng-click="liked($index)" ng-class="animal.liked ? 'liked' : 'like' ">Like</button> </p>
+        <p> <button ng-click="liked(animal.id)" ng-class="animal.liked ? 'liked' : 'like' ">Like</button> </p>
       </span>
 
     </ul>
