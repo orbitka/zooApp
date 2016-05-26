@@ -4,7 +4,7 @@
 
   <header class="header">
     <div>
-      <h2 id='slogan'>Hania  <img src="http://delpercio.com/kasia/photos-zoo/hz-header2.png" alt="Hania and Zosia photo" /> & Zosia ZOO</h2>
+      <h2 id='slogan'><img src="http://delpercio.com/kasia/photos-zoo/hz-header2.png" alt="Hania and Zosia photo" />Hania & Zosia ZOO</h2>
     </div>
   </header>
 
@@ -12,7 +12,7 @@
 
     <div id="liked-container">
 
-      <h2>Our favorite animals:</h2>
+      <h2>Our animal collection:</h2>
 
       <ul class="users">
         <span class="user" ng-repeat="animal in animals track by animal.id" ng-show="animal.liked">
@@ -20,7 +20,6 @@
           <h4>{{ animal.name }}</h4>
           <p>Age: {{ animal.age }}</p>
           <p>"{{ animal.description }}""</p>
-          <!-- <p> <button ng-click="liked(animal.id)" ng-class="animal.liked ? 'liked' : 'like' ">Unlike</button> </p> -->
           <p> <button ng-click="selectionHandler(animal.id, false)">Unlike</button> </p>
         </span>
 
