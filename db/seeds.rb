@@ -81,6 +81,28 @@ photoCats = [
 ]
 
 photoSafari = [
+
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5729.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5522.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5372.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_6009.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5958.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5948.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp7065-test-frame-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp7110-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp7110-2.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp6955-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp6797-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp5251-test-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp4575-frame-2.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp4569-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/10/20151017-img_3956.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/10/20151025-img_6586.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/03/cuba-2015-orbitka-com-img_0231-1.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/03/cuba-2015-orbitka-com-img_4935-1.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/08/088-20141017-img_9189.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/08/090-20141017-od-wojtka2-dsc_7506.jpg?w=200',
+
   'https://orbitka.files.wordpress.com/2014/07/australia-2014-kangury-39.jpg?w=200',
   'https://orbitka.files.wordpress.com/2014/07/australia-2014-kangury-42.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/01/imgp6955-3.jpg?w=200',
@@ -140,7 +162,8 @@ photoCartoons = [
   'https://upload.wikimedia.org/wikipedia/commons/d/dc/H%C3%A9raldique_meuble_Rainette.svg'
 ]
 
-pics = [photoCats, photoSafari, photoCartoons]
+pics = [photoCats, photoSafari]
+# pics = [photoCats, photoSafari, photoCartoons]
 
 200.times do
   Animal.create({
