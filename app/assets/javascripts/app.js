@@ -19,5 +19,4 @@ zooApp.controller("AnimalsController", ["$scope", "$http", "$timeout", function(
 
   }
 
-
 }])
