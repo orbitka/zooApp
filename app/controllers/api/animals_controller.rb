@@ -29,7 +29,7 @@ class Api::AnimalsController < ApplicationController
   private
 
   def animal_params
-    params.require(:animal).permit(:name, :photo, :age, :description)
+    params.require(:animal).permit(:name, :photo, :age, :description, :liked)
   end
 
 

@@ -12,6 +12,7 @@ zooApp.controller("AnimalsController", ["$scope", "$http", "$timeout", function(
       $scope.animals.forEach(function(animal) {
         if (animal.id == id) {
           animal.liked = liked;
+          $http.put('/api/animals/' + id, { liked: true }).then(() => console.log('animal updated').catch( () => console.log('error?')));
         }
       })
 
