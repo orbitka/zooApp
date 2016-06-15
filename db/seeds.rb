@@ -1,7 +1,10 @@
 # use CLI-->  bundle exec rake db:seed --> to seed the db
 # or use CLI-->  bundle exec rake db:reset --> to delete, migrate and seed the db
 
-
+# On heroku use CLI:
+# heroku pg:reset DATABASE --> then:
+# heroku run rake db:migrate --> then:
+# heroku run rake db:seed
 
 photoCats = [
   'http://placekitten.com/200/248',
@@ -232,7 +235,8 @@ photoCartoons = [
 
 # pics = [photoCats, photoSafari]
 # pics = [photoCats, photoSafari, photoCartoons]
-pics = [photoSafari, photoCartoons]
+# pics = [photoSafari, photoCartoons]
+pics = [photoSafari]
 
 200.times do
   Animal.create({
