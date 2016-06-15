@@ -17,7 +17,7 @@ class Api::AnimalsController < ApplicationController
   def update
     anim = Animal.find params[:id]
     anim.update animal_params
-    render json: { animal: animal}
+    render json: { animal: anim}
   end
 
   def destroy

@@ -9,15 +9,17 @@ zooApp.controller("AnimalsController", ["$scope", "$http", "$timeout", function(
 
   $scope.selectionHandler = function(id, liked){
 
-      $scope.animals.forEach(function(animal) {
-        if (animal.id == id) {
-          animal.liked = liked;
-          $http.put('/api/animals/' + id, { liked: true }).then(() => console.log('animal updated').catch( () => console.log('error?')));
-        }
-      })
-
-      console.log($scope.animals);
-
+    $scope.animals.forEach(function(animal) {
+      if (animal.id == id) {
+        animal.liked = liked;
+        $http.put('/api/animals/' + id, { liked: true }).then(console.log('updated-liked'), console.log('error?'));
+      }
+      // if (animal.id == id) {
+      //   animal.liked = !liked;
+      //   $http.put('/api/animals/' + id, { liked: false }).then(console.log('updated-disliked'), console.log('error?'));
+      // }
+    })
+    console.log($scope.animals);
   }
 
 }])
