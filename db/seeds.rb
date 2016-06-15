@@ -82,38 +82,70 @@ photoCats = [
 
 photoSafari = [
 
-  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5729.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2012/11/zdjc499cie-58.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2013/10/15-dsc_4976-edit1.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/02/4-dzikie-konie-na-wyspie-to-czesty-widok-p1010532-isla-de-pasqua.jpg?w=200',
+
+  'https://orbitka.files.wordpress.com/2014/03/f1-w-melbourne-2014-03-13_16-10a-small.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/03/f1-w-melbourne-2014-03-13_16-10-small.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/03/wpid-cam037934.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/03/wpid-cam03890.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/03/wpid-cam03851.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/03/dsc_1043-kopia.jpg?w=200',
+
+  'https://orbitka.files.wordpress.com/2014/06/img_7448-kopia-small.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/07/australia-2014-kangury-39.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/07/australia-2014-kangury-41.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/07/australia-2014-kangury-42.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/07/australia-2014-kangury-21.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/07/australia-2014-kangury-22.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2014/07/suarez-biting-turtle.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp7346-2.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp5251-test-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp7065-test-frame-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp7110-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp7110-2.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp7133-2.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp6955-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp6797-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp4575-frame-2.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp4569-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/imgp6781-3.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/malaysia-2014-10-05-11-26-img_4477-low.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/malaysia-2014-10-05-11-28-img_4497-low.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/malaysia-2014-10-06-14-22-wk-dsc_6543-low.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/malaysia-2014-10-06-13-58-wk-dsc_6486-low.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/malaysia-2014-10-07-16-03-img_5659-low.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/malaysia-2014-10-07-16-03-img_5665-low.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/01/malaysia-2014-10-07-17-09-img_5847-low.jpg?w=200',
+  '',
+
+  'https://orbitka.files.wordpress.com/2015/03/cuba-2015-orbitka-com-img_0231-1.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/03/cuba-2015-orbitka-com-img_4935-1.jpg?w=200',
+
+  'https://orbitka.files.wordpress.com/2015/06/20150624-img_4167.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/06/20150624-img_4179.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/06/20150624-img_4194.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/06/20150624-img_4216.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/06/20150624-img_4238.jpg?w=200',
+
+
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5251.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5982.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5954.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5400.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5333.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5448.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5488.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20150630-img_5878.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20150630-img_5522.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20150630-img_5372.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20150630-img_6009.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20150630-img_5958.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20150630-img_5948.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp7065-test-frame-3.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp7110-3.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp7110-2.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp6955-3.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp6797-3.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp5251-test-3.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp4575-frame-2.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp4569-3.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/10/20151017-img_3956.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/10/20151025-img_6586.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/03/cuba-2015-orbitka-com-img_0231-1.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/03/cuba-2015-orbitka-com-img_4935-1.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/08/088-20141017-img_9189.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/08/090-20141017-od-wojtka2-dsc_7506.jpg?w=200',
-
-  'https://orbitka.files.wordpress.com/2014/07/australia-2014-kangury-39.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2014/07/australia-2014-kangury-42.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp6955-3.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp7346-2.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp5251-test-3.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5411.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20060825-imgp7044.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp4569-3.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20060822-imgp4663.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/01/imgp7065-test-frame-3.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2014/03/f1-w-melbourne-2014-03-13_16-10a-small.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20150630-img_5729.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20150630-img_5959.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20060822-imgp1146.jpg?w=200',
@@ -122,7 +154,6 @@ photoSafari = [
   'https://orbitka.files.wordpress.com/2015/07/20060822-imgp4599.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20060822-imgp4826.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20060822-imgp4870.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5251.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5389.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5843.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20060824-imgp6422.jpg?w=200',
@@ -131,9 +162,46 @@ photoSafari = [
   'https://orbitka.files.wordpress.com/2015/07/20060825-imgp6918.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20060825-imgp7044.jpg?w=200',
   'https://orbitka.files.wordpress.com/2015/07/20060826-imgp7847.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2014/06/img_7448-kopia-small.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2014/07/australia-2014-kangury-39.jpg?w=200',
-  'https://orbitka.files.wordpress.com/2014/07/australia-2014-kangury-22.jpg?w=200'
+  'https://orbitka.files.wordpress.com/2015/07/20060822-imgp4529-2.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060822-imgp4653.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060822-imgp4872.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp1335.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5261.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5352.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5356.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5405.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5411.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5626.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5486.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5833.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5749.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5850.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060824-imgp6413.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060825-imgp6924.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060825-imgp7018.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060825-imgp7414.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060825-imgp7615.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060825-imgp7447.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060825-imgp7689.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060826-imgp7850.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060826-imgp7930.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060826-imgp8237.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060826-imgp8269.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060824-imgp6496.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5344.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5288.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp5223.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060823-imgp1444.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060822-imgp4542.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060822-imgp4500.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060822-imgp1129.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/07/20060822-imgp1146.jpg?w=200',
+
+  'https://orbitka.files.wordpress.com/2015/08/088-20141017-img_9189.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/08/090-20141017-od-wojtka2-dsc_7506.jpg?w=200',
+
+  'https://orbitka.files.wordpress.com/2015/10/20151017-img_3956.jpg?w=200',
+  'https://orbitka.files.wordpress.com/2015/10/20151025-img_6586.jpg?w=200'
 ]
 
 photoCartoons = [
@@ -162,8 +230,9 @@ photoCartoons = [
   'https://upload.wikimedia.org/wikipedia/commons/d/dc/H%C3%A9raldique_meuble_Rainette.svg'
 ]
 
-pics = [photoCats, photoSafari]
+# pics = [photoCats, photoSafari]
 # pics = [photoCats, photoSafari, photoCartoons]
+pics = [photoSafari, photoCartoons]
 
 200.times do
   Animal.create({
@@ -173,7 +242,7 @@ pics = [photoCats, photoSafari]
     photo:        pics.sample.sample,
     # photo:        photoSafari.sample,
     # photo:        photoCartoons.sample,
-    age:          rand(1..10),
+    age:          rand(1..12),
     description:  Faker::Superhero.name
     })
 end
